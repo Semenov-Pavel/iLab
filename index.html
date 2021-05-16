@@ -9,652 +9,630 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="favicon/png" href="img/favicon.png">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
 </head>
 <body>
-    <header id="header" class="container header">
-        <div id="burger" class="burger"></div>
+    <div class="container b-header">
+        <div class="header__burger"></div>
         <a class="header__logo" href="#"><img class="header__logo__img" src="img/logo.svg" alt="Err"></a>
-        <nav class="nav">
-            <a id="programe-btn" href="#" class="nav__links">О программе</a>
-            <a id="participation-btn" href="#" class="nav__links">Зачем участвовать</a>
-            <a id="looking-btn" href="#" class="nav__links">Кого мы ищем</a>
-            <a id="destinations-btn" href="#" class="nav__links">Направления</a>
-            <a id="stages-btn" href="#" class="nav__links">Этапы</a>
-            <a id="contacts-btn" href="#" class="nav__links">Контакты</a>
-        </nav>
+        <div class="header__nav">
+            <a href="#" class="header__link js-programe-btn">О программе</a>
+            <a href="#" class="header__link js-participation-btn">Зачем участвовать</a>
+            <a href="#" class="header__link js-looking-btn">Кого мы ищем</a>
+            <a href="#" class="header__link js-destinations-btn">Направления</a>
+            <a href="#" class="header__link js-stages-btn">Этапы</a>
+            <a href="#" class="header__link js-contacts-btn">Контакты</a>
+        </div>
         <img class="header__logo2" src="img/Sk.svg" alt="Err">
-        <div id="header__menu" class="header__menu">
-            <div id="header__menu__close" class="header__menu__close"></div>
-            <div class="header__menu__nav">
-                <a href="#programe" class="header__menu__nav__links nav__links">О программе</a>
-                <a href="#participation" class="header__menu__nav__links nav__links">Зачем участвовать</a>
-                <a href="#looking" class="header__menu__nav__links nav__links">Кого мы ищем</a>
-                <a href="#destinations" class="header__menu__nav__links nav__links">Направления</a>
-                <a href="#stages" class="header__menu__nav__links nav__links">Этапы</a>
-                <a href="#contacts" class="header__menu__nav__links nav__links">Контакты</a>
+        <div class="b-menu">
+            <div class="menu__close"></div>
+            <div class="menu__nav">
+                <a href="#" class="menu__link header__link">О программе</a>
+                <a href="#" class="menu__link header__link">Зачем участвовать</a>
+                <a href="#" class="menu__link header__link">Кого мы ищем</a>
+                <a href="#" class="menu__link header__link">Направления</a>
+                <a href="#" class="menu__link header__link">Этапы</a>
+                <a href="#" class="menu__link header__link">Контакты</a>
             </div>
-            <button class="button-default first-section__button header__menu__button">Подать заявку</button>
-            <div class="header__menu__info">
-                <p class="header__menu__info__text">Контактное лицо</p>
-                <p class="header__menu__info__name">Елена Тихомирова</p>
-                <a class="header__menu__info__mail" href="mailto:ilab@sk.ru">ilab@sk.ru</a>
-                <a class="header__menu__info__tel" href="tel:+74959560033">+7 (495) 956 00 33 <span>(доб. 2076)</span></a>
+            <button class="button-default first-section__button menu__button">Подать заявку</button>
+            <div class="menu__info">
+                <p class="menu__text">Контактное лицо</p>
+                <p class="menu__name">Елена Тихомирова</p>
+                <a class="menu__mail" href="mailto:ilab@sk.ru">ilab@sk.ru</a>
+                <a class="menu__tel" href="tel:+74959560033">+7 (495) 956 00 33 <span>(доб. 2076)</span></a>
             </div>
         </div>
-    </header>
-    <main>
-        <section id="programe" class="first-section">
-            <div class="hero-container">
-                <div class="container">
-                    <h1 class="main-title first-section__title">ЛАБОРАТОРИЯ ИННОВАЦИЙ iLAB</h1>
-                    <p class="first-section__sub-title">для стартапов в области цифровой медицины</p>
-                    <div class="first-section__text__container">
-                        <p class="text-style2 first-section__text">Мы собрали компетенции Фонда «Сколково», научно-технологическую и отраслевую экспертизу партнеров, а также клиническую базу медицинского центра Hadassah Medical Moscow для доработки и внедрения инновационных решений цифровой медицины под потребности врачей и пациентов. Проект реализуется совместными усилиями Фонда «Сколково», медицинской клиники Hadassah Medical Moscow и биофармацевтической компании AstraZeneca при поддержке компании ПАО «Ростелеком».</p>
-                        <div class="first-section__button__container">
-                            <button class="button-default first-section__button">Подать заявку</button>
-                            <div class="first-section__term">
-                                <p class="first-section__term__text">Прием заявок до</p>
-                                <p class="first-section__term__date">31 марта 2021</p>
-                            </div>
+    </div>
+    <div class="b-first-section">
+        <div class="first-section__hero-container">
+            <div class="container">
+                <h1 class="main-title first-section__title">ЛАБОРАТОРИЯ ИННОВАЦИЙ iLAB</h1>
+                <p class="first-section__sub-title">для стартапов в области цифровой медицины</p>
+                <div class="first-section__text-container">
+                    <p class="text-style2 first-section__text">Мы собрали компетенции Фонда «Сколково», научно-технологическую и отраслевую экспертизу партнеров, а также клиническую базу медицинского центра Hadassah Medical Moscow для доработки и внедрения инновационных решений цифровой медицины под потребности врачей и пациентов. Проект реализуется совместными усилиями Фонда «Сколково», медицинской клиники Hadassah Medical Moscow и биофармацевтической компании AstraZeneca при поддержке компании ПАО «Ростелеком».</p>
+                    <div class="first-section__button-container">
+                        <button class="button-default first-section__button">Подать заявку</button>
+                        <div class="first-section__term">
+                            <p class="first-section__term-text">Прием заявок до</p>
+                            <p class="first-section__term-date">31 марта 2021</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </section> 
-        <section class="second-section">
-            <h2 class="title container second-section__title">О партнерах iLAB</h2>
-            <div class="second-section__blocks-list">
-                <div class="owl-carousel">
-                    <div class="second-section__block">
-                        <img class="second-section__block__img" src="img/partner1.png" alt="Err">
-                        <p class="text-style1 second-section__block-text">Международная научно-ориентированная биофармацевтическая компания, нацеленная на исследование, разработку и вывод на рынок рецептурных препаратов преимущественно в таких терапевтических областях, как онкология, кардиология, нефрология и метаболизм<span class="more" id="more1">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
-                        <p id="more1-btn" class="read-next">Читать далее</p>
-                        <div class="second-section__block-subtext-list">
-                            <div class="second-section__block-arrow">
-                                <div class="second-section__arrow-up" href="#"></div>
-                                <div class="second-section__arrow-down" href="#"></div>
-                            </div>
-                            <p class="second-section__block-subtext-num">57 500</p>
-                            <p class="second-section__block-subtext-numtext">Сотрудников во всем мире</p>
+        </div>
+    </div> 
+    <div class="b-second-section">
+        <h2 class="g-title container second-section__title">О партнерах iLAB</h2>
+        <div class="second-section__blocks-list">
+            <div class="owl-carousel">
+                <div class="second-section__block">
+                    <img class="second-section__img" src="img/partner1.png" alt="Err">
+                    <p class="text-style1 second-section__block-text">Международная научно-ориентированная биофармацевтическая компания, нацеленная на исследование, разработку и вывод на рынок рецептурных препаратов преимущественно в таких терапевтических областях, как онкология, кардиология, нефрология и метаболизм<span class="more js-more1" >, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
+                    <p class="read-next js-more1-btn">Читать далее</p>
+                    <div class="second-section__subtext-list">
+                        <div class="second-section__arrows">
+                            <div class="second-section__arrow-up" href="#"></div>
+                            <div class="second-section__arrow-down" href="#"></div>
                         </div>
+                        <p class="second-section__subtext-num">57 500</p>
+                        <p class="second-section__subtext">Сотрудников во всем мире</p>
                     </div>
-                    <div class="second-section__block">
-                        <img class="second-section__block__img" src="img/partner2.png" alt="Err">
-                        <p class="text-style1 second-section__block-text">Первый в России медицинский <br>клинико-диагностический центр под управлением иностранного университетского госпиталя со столетней историей – Hadassah, единственной израильской больницы, состоящей в American Hospital Association<span class="more" id="more2">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
-                        <p id="more2-btn" class="read-next">Читать далее</p>
-                        <div class="second-section__block-subtext-list">
-                            <div class="second-section__block-arrow">
-                                <div class="second-section__arrow-up" href="#"></div>
-                                <div class="second-section__arrow-down" href="#"></div>
-                            </div>
-                            <p class="second-section__block-subtext-num">175 000</p>
-                            <p class="second-section__block-subtext-numtext">Проведенных за год манипуляций</p>
+                </div>
+                <div class="second-section__block">
+                    <img class="second-section__img" src="img/partner2.png" alt="Err">
+                    <p class="text-style1 second-section__block-text">Первый в России медицинский <br>клинико-диагностический центр под управлением иностранного университетского госпиталя со столетней историей – Hadassah, единственной израильской больницы, состоящей в American Hospital Association<span class="more js-more2">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
+                    <p class="read-next js-more2-btn">Читать далее</p>
+                    <div class="second-section__subtext-list">
+                        <div class="second-section__arrows">
+                            <div class="second-section__arrow-up" href="#"></div>
+                            <div class="second-section__arrow-down" href="#"></div>
                         </div>
+                        <p class="second-section__subtext-num">175 000</p>
+                        <p class="second-section__subtext">Проведенных за год манипуляций</p>
                     </div>
-                    <div class="second-section__block">
-                        <img class="second-section__block__img" src="img/partner3.png" alt="Err">
-                        <p class="text-style1 second-section__block-text mt-40">Крупнейший в России интегрированный провайдер цифровых услуг и решений, который присутствует во всех сегментах рынка и охватывает миллионы домохозяйств, государственных и частных организаций. Занимает лидирующие позиции на рынке услуг доступа<span class="more" id="more3">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
-                        <p id="more3-btn" class="read-next">Читать далее</p>
-                        <div class="second-section__block-subtext-list">
-                            <div class="second-section__block-arrow">
-                                <div class="second-section__arrow-up" href="#"></div>
-                                <div class="second-section__arrow-down" href="#"></div>
-                            </div>
-                            <p class="second-section__block-subtext-num">13,4 млн</p>
-                            <p class="second-section__block-subtext-numtext">Абонентов услуг ШПД</p>
+                </div>
+                <div class="second-section__block">
+                    <img class="second-section__img" src="img/partner3.png" alt="Err">
+                    <p class="text-style1 second-section__block-text mt-40">Крупнейший в России интегрированный провайдер цифровых услуг и решений, который присутствует во всех сегментах рынка и охватывает миллионы домохозяйств, государственных и частных организаций. Занимает лидирующие позиции на рынке услуг доступа<span class="more js-more3">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
+                    <p class="read-next js-more3-btn">Читать далее</p>
+                    <div class="second-section__subtext-list">
+                        <div class="second-section__arrows">
+                            <div class="second-section__arrow-up" href="#"></div>
+                            <div class="second-section__arrow-down" href="#"></div>
                         </div>
+                        <p class="second-section__subtext-num">13,4 млн</p>
+                        <p class="second-section__subtext">Абонентов услуг ШПД</p>
                     </div>
-                    <div class="second-section__block">
-                        <img class="second-section__block__img" src="img/patner4.png" alt="Err">
-                        <p class="text-style1 second-section__block-text mt-16">GE Healthcare – бизнес-подразделение GE (NYSE: GE) с оборотом $16,7 млрд. Являясь одним из ведущих мировых производителей передового медицинского оборудования и цифровых решений, GE Healthcare помогает врачам получать качественную информацию и принимать<span class="more" id="more4">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
-                        <p id="more4-btn" class="read-next">Читать далее</p>
-                        <div class="second-section__block-subtext-list">
-                            <div class="second-section__block-arrow">
-                                <div class="second-section__arrow-up" href="#"></div>
-                                <div class="second-section__arrow-down" href="#"></div>
-                            </div>
-                            <p class="second-section__block-subtext-num">50 000</p>
-                            <p class="second-section__block-subtext-numtext">Единиц оборудования поставлено в Россию и СНГ</p>
+                </div>
+                <div class="second-section__block">
+                    <img class="second-section__img" src="img/patner4.png" alt="Err">
+                    <p class="text-style1 second-section__block-text mt-16">GE Healthcare – бизнес-подразделение GE (NYSE: GE) с оборотом $16,7 млрд. Являясь одним из ведущих мировых производителей передового медицинского оборудования и цифровых решений, GE Healthcare помогает врачам получать качественную информацию и принимать<span class="more js-more4">, респираторные и аутоиммунные заболевания. Компания «АстраЗенека», базирующаяся в Кембридже (Великобритания), представлена более чем в 100 странах мира, а ее инновационные препараты используют миллионы пациентов во всем мире. Cледите за новостями компании на сайте astrazeneca.ru и Twitter @AstraZeneca</span></p>
+                    <p class="read-next js-more4-btn">Читать далее</p>
+                    <div class="second-section__subtext-list">
+                        <div class="second-section__arrows">
+                            <div class="second-section__arrow-up" href="#"></div>
+                            <div class="second-section__arrow-down" href="#"></div>
                         </div>
+                        <p class="second-section__subtext-num">50 000</p>
+                        <p class="second-section__subtext">Единиц оборудования поставлено в Россию и СНГ</p>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="third-section">
-            <div class="hero2-container">
-                <h2 class="title third-section__title">Цели программы</h2>
-                <img class="third-section__hero" src="img/hero2.png" alt="Err">
-                <img class="third-section__hero__media" src="img/hero2-media.png" alt="Err">
-                <img class="third-section__hero__media2" src="img/hero2-media2.png" alt="Err">
-                <img class="third-section__hero-num third-section__hero-num1" src="img/i01.svg" alt="Err">
-                <img class="third-section__hero-num third-section__hero-num2" src="img/i02.svg" alt="Err">
-                <img class="third-section__hero-num third-section__hero-num3" src="img/i03.svg" alt="Err">
-                <p class="third-section__num third-section__num01">01</p>
-                <p class="third-section__num third-section__num02">02</p>
-                <p class="third-section__num third-section__num03">03</p>
-                <div class="container third-section__text-list">
-                    <p class="text-style2 third-section__text">Поиск, отбор и адаптация перспективных проектов под задачи корпораций</p>
-                    <p class="text-style2 third-section__text">Взаимодействие с центрами экспертизы и врачебным сообществом. Развитие технологии продукта, которые соответствуют потребностям пациентам и здравоохранению</p>
-                    <p class="text-style2 third-section__text">Сбор и учет обратной связи от врачей и пациентов. Доработка продукта с учетом принципов пациентоориентированности и дизайн-мышления при поддержке ведущих экспертов организаций-партнеров</p>
-                </div>
+        </div>
+    </div>
+    <div class="b-third-section">
+        <div class="third-section__hero2-container">
+            <h2 class="g-title third-section__title">Цели программы</h2>
+            <img class="third-section__hero" src="img/hero2.png" alt="Err">
+            <img class="third-section__hero-media" src="img/hero2-media.png" alt="Err">
+            <img class="third-section__hero-media2" src="img/hero2-media2.png" alt="Err">
+            <img class="third-section__hero-num third-section__hero-num1" src="img/i01.svg" alt="Err">
+            <img class="third-section__hero-num third-section__hero-num2" src="img/i02.svg" alt="Err">
+            <img class="third-section__hero-num third-section__hero-num3" src="img/i03.svg" alt="Err">
+            <p class="third-section__num third-section__num01">01</p>
+            <p class="third-section__num third-section__num02">02</p>
+            <p class="third-section__num third-section__num03">03</p>
+            <div class="container third-section__text-list">
+                <p class="text-style2 third-section__text">Поиск, отбор и адаптация перспективных проектов под задачи корпораций</p>
+                <p class="text-style2 third-section__text">Взаимодействие с центрами экспертизы и врачебным сообществом. Развитие технологии продукта, которые соответствуют потребностям пациентам и здравоохранению</p>
+                <p class="text-style2 third-section__text">Сбор и учет обратной связи от врачей и пациентов. Доработка продукта с учетом принципов пациентоориентированности и дизайн-мышления при поддержке ведущих экспертов организаций-партнеров</p>
             </div>
-        </section>
-        <section id="participation" class="fourth-section container">
-            <h2 class="title fourth-section__title">Зачем участвовать</h2>
-            <div class="fourth-section__content">
-                <div class="fourth-section__list">
-                    <div class="fourth-section__list__block">
-                        <img src="img/img1.svg" alt="Err">
-                        <p class="text-style2 fourth-section__text">Лучшие из 3-5 стартапов, прошедших отбор, получат возможность пройти акселерационную программу, созданную Фондом "Сколково" с использованием 10-ти летнего опыта развития стартапов и лучших международных практик</p>
-                    </div>
-                    <div class="fourth-section__list__block">
-                        <img src="img/img2.svg" alt="Err">
-                        <p class="text-style2 fourth-section__text">При успешном прохождении акселерационной программы стартапы получат возможность запустить совместный проект (пилот) с индустриальными партнёрами проекта iLAB</p>
-                    </div>
-                </div>
-                <div class="fourth-section__second-block">
-                    <div class="fourth-section__second-block__title">
-                        <img src="img/img3.svg" alt="Err">
-                        <p class="fourth-section__second__title">Каждый участник программы сможет</p>
-                    </div>
-                    <p class="text-style2 fourth-section__second__text">
-                        •  В индивидуальном режиме работать с 2-4 
-                        <br class="md-7"> менторами из индустриальных компаний, 
-                        <br class="md-7"> венчурных фондов и исследовательских 
-                        <br class="md-7"> организаций
-                        <br class="md-7">
-                        <br> •   Протестировать своё решение на базе клиники 
-                        <br class="md-7"> Hadassah Medical Moscow и  получить обратную 
-                        <br class="md-7"> связь от врачей и пациентов
-                        <br class="md-7">
-                        <br> •   Принять участие в образовательной части 
-                        <br class="md-7"> программы. 
-                    </p>
-                </div>
-                <div class="fourth-section__last-block">
-                    <img src="img/check.svg" alt="Err">
-                    <p class="fourth-section__last-block__text">Интеграции</p>
-                </div>
-            </div>
-
-
-
-
-            <div class="owl-carousel fourth-section__carusel">
-                <div class="fourth-section__list__block">
-                    <img class="fourth-section__img" src="img/img1.svg" alt="Err">
+        </div>
+    </div>
+    <div class="b-fourth-section container">
+        <h2 class="g-title fourth-section__title">Зачем участвовать</h2>
+        <div class="fourth-section__content">
+            <div class="fourth-section__list">
+                <div class="fourth-section__block">
+                    <img src="img/img1.svg" alt="Err">
                     <p class="text-style2 fourth-section__text">Лучшие из 3-5 стартапов, прошедших отбор, получат возможность пройти акселерационную программу, созданную Фондом "Сколково" с использованием 10-ти летнего опыта развития стартапов и лучших международных практик</p>
                 </div>
-                <div class="fourth-section__list__block">
-                    <img class="fourth-section__img" src="img/img2.svg" alt="Err">
+                <div class="fourth-section__block">
+                    <img src="img/img2.svg" alt="Err">
                     <p class="text-style2 fourth-section__text">При успешном прохождении акселерационной программы стартапы получат возможность запустить совместный проект (пилот) с индустриальными партнёрами проекта iLAB</p>
                 </div>
-                <div class="fourth-section__second-block">
-                    <div class="fourth-section__second-block__title">
-                        <img class="fourth-section__img" src="img/img3.svg" alt="Err">
-                        <p class="fourth-section__second__title">Каждый участник программы сможет</p>
-                    </div>
-                    <p class="text-style2 fourth-section__second__text">
-                        •  В индивидуальном режиме работать с 2-4 
-                        <br class="md-7"> менторами из индустриальных компаний, 
-                        <br class="md-7"> венчурных фондов и исследовательских 
-                        <br class="md-7"> организаций
-                        <br class="md-7">
-                        <br> •   Протестировать своё решение на базе клиники 
-                        <br class="md-7"> Hadassah Medical Moscow и  получить обратную 
-                        <br class="md-7"> связь от врачей и пациентов
-                        <br class="md-7">
-                        <br> •   Принять участие в образовательной части 
-                        <br class="md-7"> программы. 
-                    </p>
+            </div>
+            <div class="b-second-block">
+                <div class="second-block__title">
+                    <img src="img/img3.svg" alt="Err">
+                    <p class="second-block__second-title">Каждый участник программы сможет</p>
+                </div>
+                <div class="text-style2 second-block__second-text">
+                    <p>&#8226; В индивидуальном режиме работать с 2-4 менторами из индустриальных компаний, венчурных фондов и исследовательских организаций</p>
+                    <p>&#8226; Протестировать своё решение на базе клиники Hadassah Medical Moscow и получить обратную связь от врачей и пациентов</p>
+                    <p>&#8226; Принять участие в образовательной части программы. </p>
                 </div>
             </div>
-        </section>
-        <section id="looking" class="fifth-section">
-            <div class="container fifth-section__relative">
-                <div class="fifth-section__block">
-                    <h2 class="title fifth-section__title">Кого мы ищем</h2>
-                    <p class="text-style2 fifth-section__text">Мы ищем инновационные проекты и решения в области онкологии, сердечно-сосудистых заболеваний, заболеваний обмена веществ и почек, респираторных заболеваний, патологии иммунной системы, гастроэнтерологии, цифровые решения для подразделения R&D фармацевтической компании, решения по поддержке пациентов-участников клинических исследований в условиях пандемии.</p>
-                    <button class="button-default first-section__button">Подать заявку</button>
-                    <div class="first-section__term">
-                        <p class="first-section__term__text">Прием заявок до</p>
-                        <p class="first-section__term__date">31 марта 2021</p>
-                    </div>
-                    <div class="fifth-section__mark-block">
-                        <img class="fifth-section__mark" src="img/mark.svg" alt="Err">
-                        <p class="fifth-section__mark-text">Участие в программе бесплатно</p>
-                    </div>
+            <div class="b-last-block">
+                <img src="img/check.svg" alt="Err">
+                <p class="last-block__text">Интеграции</p>
+            </div>
+        </div>
+        <div class="owl-carousel fourth-section__carusel">
+            <div class="fourth-section__block">
+                <img class="fourth-section__img" src="img/img1.svg" alt="Err">
+                <p class="text-style2 fourth-section__text">Лучшие из 3-5 стартапов, прошедших отбор, получат возможность пройти акселерационную программу, созданную Фондом "Сколково" с использованием 10-ти летнего опыта развития стартапов и лучших международных практик</p>
+            </div>
+            <div class="fourth-section__block">
+                <img class="fourth-section__img" src="img/img2.svg" alt="Err">
+                <p class="text-style2 fourth-section__text">При успешном прохождении акселерационной программы стартапы получат возможность запустить совместный проект (пилот) с индустриальными партнёрами проекта iLAB</p>
+            </div>
+            <div class="b-second-block">
+                <div class="second-block__title">
+                    <img class="fourth-section__img" src="img/img3.svg" alt="Err">
+                    <p class="second-block__second-title">Каждый участник программы сможет</p>
                 </div>
-                <div class="fifth-section__labels">
-                    <div class="fifth-section__list">
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/threeLine.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Соответствие приоритетным направлениям конкурсного отбора</p>
-                        </div>
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/tt1.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Технология / продукт не ниже уровня MVP (приветствуется наличие первых продаж / внедрений)</p>
-                        </div>
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/tt2.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Наличие всех необходимых разрешений / лицензий для осуществления деятельности</p>
-                        </div>
-                    </div>
-                    <div class="fifth-section__list">
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/tt3.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Наличие прав на использование / потенциал защиты объектов интеллектуальной собственности на территории России</p>
-                        </div>
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/tt4.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Сформированная команда (2+ человека в команде, закрыты ключевые функции)</p>
-                        </div>
-                        <div class="fifth-section__el">
-                            <div class="fifth-section__img-group">
-                                <img class="fifth-section__el__img" src="img/threeLine.svg" alt="Err">
-                            </div>
-                            <p class="text-style2 fifth-section__el__text">Приоритет проектам, представляющим бизнес-интерес для компаний-партнёров iLAB и / или решающим важные задачи для системы Здравоохранения</p>
-                        </div>
-                    </div>
+                <div class="text-style2 second-block__second-text">
+                    <p>&#8226; В индивидуальном режиме работать с 2-4 менторами из индустриальных компаний, венчурных фондов и исследовательских организаций</p>
+                    <p>&#8226; Пртировать своё решение на базе клиники Hadassah Medical Moscow и получить обратную связь от врачей и пациентов</p>
+                    <p>&#8226; Принять участие в образовательной части программы.</p> 
                 </div>
             </div>
-        </section>
-        <section id="destinations" class="sixth-srction container">
-            <h2 class="title sixth-section__title">Направления отбора</h2>
-            <div class="sixth-section__block-list">
-                <div id="sixth-section1" class="sixth-section__block sixth-section__block1">
-                    <div class="sixth-section__title-block">
-                        <h3 id="sixth-section_block_title1" class="sixth-section__block__title">Биофарма</h3>
-                        <div id="img-minus1" class="sixth-section__block-img">
-                            <div id="minus1" class="sixth-section__block-img-cross"></div>
-                        </div>
-                    </div>
-                    <p id="sixth-section__text1" class="text-style2 sixth-section__text display-none">Цифровые решения в области выявления, диагностики и лечения ХСН, ХБП, бронхиальной астмы, сахарного диабета, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, другие цифровые решения для врачей и пациентов в указанных нозологиях, поддержка врачей и пациентов в условиях пандемии</p>
+        </div>
+    </div>
+    <div class="b-fifth-section">
+        <div class="container fifth-section__relative">
+            <div class="fifth-section__block">
+                <h2 class="g-title fifth-section__title">Кого мы ищем</h2>
+                <p class="text-style2 fifth-section__text">Мы ищем инновационные проекты и решения в области онкологии, сердечно-сосудистых заболеваний, заболеваний обмена веществ и почек, респираторных заболеваний, патологии иммунной системы, гастроэнтерологии, цифровые решения для подразделения R&D фармацевтической компании, решения по поддержке пациентов-участников клинических исследований в условиях пандемии.</p>
+                <button class="button-default fifth-section__button">Подать заявку</button>
+                <div class="fifth-section__term">
+                    <p class="fifth-section__term__text">Прием заявок до</p>
+                    <p class="fifth-section__term__date">31 марта 2021</p>
                 </div>
-                <div id="sixth-section2" class="sixth-section__block sixth-section__block2">
-                    <div class="sixth-section__title-block">
-                        <h3 id="sixth-section_block_title2" class="sixth-section__block__title">Онкология</h3>
-                        <div id="img-minus2" class="sixth-section__block-img">
-                            <div id="minus2" class="sixth-section__block-img-cross"></div>
-                        </div>
-                    </div>
-                    <p id="sixth-section__text2" class="text-style2 sixth-section__text display-none">Ранняя диагностика рака, цифровые решения в области выявления (скрининга) и диагностики рака легкого, рака молочной железы, рака яичников, рака поджелудочной железы, рака простаты, хронического лимфоцитарного лейкоза и мантийноклеточной лимфомы, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, решения для сбора и анализа данных о пациентах, поддержка врачей и пациентов в условиях пандемии</p>
+                <div class="fifth-section__mark-block">
+                    <img class="fifth-section__mark" src="img/mark.svg" alt="Err">
+                    <p class="fifth-section__mark-text">Участие в программе бесплатно</p>
                 </div>
             </div>
-        </section>
-        <section id="stages" class="seventh-section">
-            <div class="container">
-                <h2 class="title seventh-section__title">Этапы</h2>
-                <div class="seventh-section__first-list">
-                    <p class="seventh-section__first-list__el seventh-section__first-list__el-done">15 – 31 Марта 2021</p>
-                    <p class="seventh-section__first-list__el">1 – 10 Апреля 2021</p>
-                    <p class="seventh-section__first-list__el">Апрель 2021</p>
-                    <p class="seventh-section__first-list__el">Май – Сентябрь 2021</p>
-                    <p class="seventh-section__first-list__el">Октябрь 2021</p>
-                </div>
-            </div>
-            <div class="seventh-section__line">
-                <div class="seventh-section__done-line__container">
-                    <div class="seventh-section__done-line">
-                        <div class="seventh-section__line__el">
-                            <img src="img/two-arrow.svg" alt="Err">
+            <div class="fifth-section__labels">
+                <div class="fifth-section__list">
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/threeLine.svg" alt="Err">
                         </div>
+                        <p class="text-style2 fifth-section__el-text">Соответствие приоритетным направлениям конкурсного отбора</p>
+                    </div>
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/tt1.svg" alt="Err">
+                        </div>
+                        <p class="text-style2 fifth-section__el-text">Технология / продукт не ниже уровня MVP (приветствуется наличие первых продаж / внедрений)</p>
+                    </div>
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/tt2.svg" alt="Err">
+                        </div>
+                        <p class="text-style2 fifth-section__el-text">Наличие всех необходимых разрешений / лицензий для осуществления деятельности</p>
+                    </div>
+                </div>
+                <div class="fifth-section__list">
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/tt3.svg" alt="Err">
+                        </div>
+                        <p class="text-style2 fifth-section__el-text">Наличие прав на использование / потенциал защиты объектов интеллектуальной собственности на территории России</p>
+                    </div>
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/tt4.svg" alt="Err">
+                        </div>
+                        <p class="text-style2 fifth-section__el-text">Сформированная команда (2+ человека в команде, закрыты ключевые функции)</p>
+                    </div>
+                    <div class="fifth-section__el">
+                        <div class="fifth-section__img-group">
+                            <img class="fifth-section__img" src="img/threeLine.svg" alt="Err">
+                        </div>
+                        <p class="text-style2 fifth-section__el-text">Приоритет проектам, представляющим бизнес-интерес для компаний-партнёров iLAB и / или решающим важные задачи для системы Здравоохранения</p>
                     </div>
                 </div>
             </div>
-            <div class="container">
-                <div class="seventh-section__second-list">
-                    <p class="seventh-section__second-list__el seventh-section__second-list__el-done">Поиск <br class="md-7">и привлечение проектов</p>
-                    <p class="seventh-section__second-list__el">Диагностика стартапов <br class="md-7">Pitch Day <span></span></p>
-                    <p class="seventh-section__second-list__el">Образовательный BootCamp</p>
-                    <p class="seventh-section__second-list__el">Акселерационный блок (4 – 6 месяцев)</p>
-                    <p class="seventh-section__second-list__el">Демо день <br class="md-7">Итоговая диагностика</p>
+        </div>
+    </div>
+    <div class="b-sixth-section container">
+        <h2 class="g-title sixth-section__title">Направления отбора</h2>
+        <div class="sixth-section__block-list">
+            <div class="sixth-section__block sixth-section__block1">
+                <div class="sixth-section__title-block">
+                    <h3 class="sixth-section__subtitle js-sixth-section_title1">Биофарма</h3>
+                    <div class="sixth-section__img js-img-minus1">
+                        <div class="sixth-section__img-cross js-minus1"></div>
+                    </div>
                 </div>
+                <p class="text-style2 sixth-section__text display-none js-sixth-section__text1">Цифровые решения в области выявления, диагностики и лечения ХСН, ХБП, бронхиальной астмы, сахарного диабета, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, другие цифровые решения для врачей и пациентов в указанных нозологиях, поддержка врачей и пациентов в условиях пандемии</p>
             </div>
-        </section>
-        <section class="eight-section">
-            <div class="hero3-container">
-                <div class="eigth-section__hero">
-                    <h3 class="eight-section__hero__title">20+ менторов</h3>
-                    <p class="text-style2 eigth-section__hero__text">Представители корпораций, инвесторов и успешных стартапов</p>
-                    <h3 class="eight-section__hero__title">4+ ментора</h3>
-                    <p class="text-style2 eigth-section__hero__text eigth-section__hero__text2">На 1 участника стартапа</p>
-                    <h3 class="eight-section__hero__title">10+ часов</h3>
-                    <p class="text-style2 eigth-section__hero__text eigth-section__hero__text3">Индивидуальной работы (тестирование гипотез, custdev)</p>
+            <div class="sixth-section__block sixth-section__block2">
+                <div class="sixth-section__title-block">
+                    <h3 class="sixth-section__subtitle js-sixth-section_title2">Онкология</h3>
+                    <div class="sixth-section__img js-img-minus2">
+                        <div class="sixth-section__img-cross js-minus2"></div>
+                    </div>
                 </div>
+                <p class="text-style2 sixth-section__text display-none js-sixth-section__text2">Ранняя диагностика рака, цифровые решения в области выявления (скрининга) и диагностики рака легкого, рака молочной железы, рака яичников, рака поджелудочной железы, рака простаты, хронического лимфоцитарного лейкоза и мантийноклеточной лимфомы, системы поддержки принятия врачебных решений, системы маршрутизации и поддержки пациентов, решения для сбора и анализа данных о пациентах, поддержка врачей и пациентов в условиях пандемии</p>
             </div>
-            <div class="container">
-                <h2 class="title eight-section__title">Жюри и менторы</h2>
-                <div class="eight-section__list">
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/rodion.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Родион <br>Сигал</h3>
-                        <p class="eight-section__list__el__text">Hadassah Medical Moscow</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/boris.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Борис <br>Глазков</h3>
-                        <p class="eight-section__list__el__text">ПАО «Ростелеком»</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/luba.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Любовь <br>Симонова-Емельянова</h3>
-                        <p class="eight-section__list__el__text">ПАО «Ростелеком»</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/anna.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Анна <br>Бращенковал</h3>
-                        <p class="eight-section__list__el__text">АстраЗенека</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/loran.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Лоран <br>Акопян</h3>
-                        <p class="eight-section__list__el__text">iPavlov</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/alexey.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Алексей <br>Виноградов</h3>
-                        <p class="eight-section__list__el__text">Unicorn Capital Partners</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/sofia.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Софья <br>Зубанова</h3>
-                        <p class="eight-section__list__el__text">RBV Capital</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/ekatiryna.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Екатерина <br>Соболева</h3>
-                        <p class="eight-section__list__el__text">GE Healthcare</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/gleb.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Глеб <br>Тимофеев</h3>
-                        <p class="eight-section__list__el__text">GE Healthcare</p>
-                    </div>
-                </div>
-                <div class="owl-carousel eight-section__owl">
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/rodion.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Родион <br>Сигал</h3>
-                        <p class="eight-section__list__el__text">Hadassah Medical Moscow</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/boris.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Борис <br>Глазков</h3>
-                        <p class="eight-section__list__el__text">ПАО «Ростелеком»</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/luba.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Любовь <br>Симонова-Емельянова</h3>
-                        <p class="eight-section__list__el__text">ПАО «Ростелеком»</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/anna.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Анна <br>Бращенковал</h3>
-                        <p class="eight-section__list__el__text">АстраЗенека</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/loran.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Лоран <br>Акопян</h3>
-                        <p class="eight-section__list__el__text">iPavlov</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/alexey.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Алексей <br>Виноградов</h3>
-                        <p class="eight-section__list__el__text">Unicorn Capital Partners</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/sofia.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Софья <br>Зубанова</h3>
-                        <p class="eight-section__list__el__text">RBV Capital</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/ekatiryna.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Екатерина <br>Соболева</h3>
-                        <p class="eight-section__list__el__text">GE Healthcare</p>
-                    </div>
-                    <div class="eight-section__list__el">
-                        <div class="eight-section__list__el__img-container">
-                            <img class="eight-section__list__el__img" src="img/gleb.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Глеб <br>Тимофеев</h3>
-                        <p class="eight-section__list__el__text">GE Healthcare</p>
+        </div>
+    </div>
+    <div class="b-seventh-section">
+        <div class="container">
+            <h2 class="g-title seventh-section__title">Этапы</h2>
+            <div class="seventh-section__first-list">
+                <p class="seventh-section__first-list__el seventh-section__first-el__done">15 – 31 Марта 2021</p>
+                <p class="seventh-section__first-list__el">1 – 10 Апреля 2021</p>
+                <p class="seventh-section__first-list__el">Апрель 2021</p>
+                <p class="seventh-section__first-list__el">Май – Сентябрь 2021</p>
+                <p class="seventh-section__first-list__el">Октябрь 2021</p>
+            </div>
+        </div>
+        <div class="seventh-section__line">
+            <div class="seventh-section__done-line">
+                <div class="seventh-section__done">
+                    <div class="seventh-section__line-el">
+                        <img src="img/two-arrow.svg" alt="Err">
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="ninth-section">
-            <div class="container">
-                <h2 class="title ninth-section__title">Команда проекта</h2>
-                <div class="owl-carousel ninth-section__carusel">
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/kamila.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Камила <br>Зарубина</h3>
-                        <p class="eight-section__list__el__text">Директор по акселерации, PhD Лидер программы со стороны Сколково</p>
+        </div>
+        <div class="container">
+            <div class="seventh-section__second-list">
+                <p class="seventh-section__second-list__el seventh-section__second-el__done">Поиск <br class="md-7">и привлечение проектов</p>
+                <p class="seventh-section__second-list__el">Диагностика стартапов <br class="md-7">Pitch Day <span></span></p>
+                <p class="seventh-section__second-list__el">Образовательный BootCamp</p>
+                <p class="seventh-section__second-list__el">Акселерационный блок (4 – 6 месяцев)</p>
+                <p class="seventh-section__second-list__el">Демо день <br class="md-7">Итоговая диагностика</p>
+            </div>
+        </div>
+    </div>
+    <div class="b-eight-section">
+        <div class="eight-section__hero3-container">
+            <div class="eigth-section__hero">
+                <h3 class="eight-section__hero__title">20+ менторов</h3>
+                <p class="text-style2 eigth-section__hero__text">Представители корпораций, инвесторов и успешных стартапов</p>
+                <h3 class="eight-section__hero__title">4+ ментора</h3>
+                <p class="text-style2 eigth-section__hero__text eigth-section__hero__text2">На 1 участника стартапа</p>
+                <h3 class="eight-section__hero__title">10+ часов</h3>
+                <p class="text-style2 eigth-section__hero__text eigth-section__hero__text3">Индивидуальной работы (тестирование гипотез, custdev)</p>
+            </div>
+        </div>
+        <div class="container">
+            <h2 class="g-title eight-section__title">Жюри и менторы</h2>
+            <div class="eight-section__list">
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/rodion.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/evgeniy.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Евгений <br>Шеенко</h3>
-                        <p class="eight-section__list__el__text">CFA <br>Методология программы</p>
+                    <h3 class="eight-section__el-title">Родион <br>Сигал</h3>
+                    <p class="eight-section__text">Hadassah Medical Moscow</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/boris.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/sofia2.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Софья <br>Ярцева</h3>
-                        <p class="eight-section__list__el__text">Medical Innovation Lead <br>Лидер программы со стороны АстраЗенека</p>
+                    <h3 class="eight-section__el-title">Борис <br>Глазков</h3>
+                    <p class="eight-section__text">ПАО «Ростелеком»</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/luba.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/ivan.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Иван <br>Таскин</h3>
-                        <p class="eight-section__list__el__text">Работа со стартапами</p>
+                    <h3 class="eight-section__el-title">Любовь <br>Симонова-Емельянова</h3>
+                    <p class="eight-section__text">ПАО «Ростелеком»</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/anna.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/rodion.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Родион <br>Сигал</h3>
-                        <p class="eight-section__list__el__text">Hadassah Medical Moscow</p>
+                    <h3 class="eight-section__el-title">Анна <br>Бращенковал</h3>
+                    <p class="eight-section__text">АстраЗенека</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/loran.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/julia.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Юлия <br>Щеглова</h3>
-                        <p class="eight-section__list__el__text">Работа со стартапами</p>
+                    <h3 class="eight-section__el-title">Лоран <br>Акопян</h3>
+                    <p class="eight-section__text">iPavlov</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/alexey.png" alt="Err">
                     </div>
-                    <div class="ninth-section__carusel__el">
-                        <div class="eight-section__list__el__img-container ninth-section__list__el__img__container">
-                            <img class="eight-section__list__el__img" src="img/elena.png" alt="Err">
-                        </div>
-                        <h3 class="eight-section__list__el__title">Елена <br>Тихомирова</h3>
-                        <p class="eight-section__list__el__text">Административная поддержка</p>
+                    <h3 class="eight-section__el-title">Алексей <br>Виноградов</h3>
+                    <p class="eight-section__text">Unicorn Capital Partners</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/sofia.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Софья <br>Зубанова</h3>
+                    <p class="eight-section__text">RBV Capital</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/ekatiryna.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Екатерина <br>Соболева</h3>
+                    <p class="eight-section__text">GE Healthcare</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/gleb.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Глеб <br>Тимофеев</h3>
+                    <p class="eight-section__text">GE Healthcare</p>
                 </div>
             </div>
-        </section>
-        <section class="tenth-section container">
-            <h2 class="title tenth-section__title">Документы</h2>
-            <div class="tenth-section__list">
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Шаблон презентации</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  10,3 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+            <div class="owl-carousel eight-section__owl">
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/rodion.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Родион <br>Сигал</h3>
+                    <p class="eight-section__text">Hadassah Medical Moscow</p>
                 </div>
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Положение о конкурсном отборе</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  9,7 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/boris.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Борис <br>Глазков</h3>
+                    <p class="eight-section__text">ПАО «Ростелеком»</p>
                 </div>
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Согласие на обработку персональных данных</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  8,5 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/luba.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Любовь <br>Симонова-Емельянова</h3>
+                    <p class="eight-section__text">ПАО «Ростелеком»</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/anna.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Анна <br>Бращенковал</h3>
+                    <p class="eight-section__text">АстраЗенека</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/loran.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Лоран <br>Акопян</h3>
+                    <p class="eight-section__text">iPavlov</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/alexey.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Алексей <br>Виноградов</h3>
+                    <p class="eight-section__text">Unicorn Capital Partners</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/sofia.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Софья <br>Зубанова</h3>
+                    <p class="eight-section__text">RBV Capital</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/ekatiryna.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Екатерина <br>Соболева</h3>
+                    <p class="eight-section__text">GE Healthcare</p>
+                </div>
+                <div class="eight-section__el">
+                    <div class="eight-section__img-container">
+                        <img class="eight-section__img" src="img/gleb.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Глеб <br>Тимофеев</h3>
+                    <p class="eight-section__text">GE Healthcare</p>
                 </div>
             </div>
-            <div class="owl-carousel tenth-section__carusel">
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Шаблон презентации</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  10,3 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+        </div>
+    </div>
+    <div class="b-ninth-section">
+        <div class="container">
+            <h2 class="g-title ninth-section__title">Команда проекта</h2>
+            <div class="owl-carousel ninth-section__carusel">
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/kamila.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Камила <br>Зарубина</h3>
+                    <p class="eight-section__text">Директор по акселерации, PhD Лидер программы со стороны Сколково</p>
                 </div>
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Положение о конкурсном отборе</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  9,7 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/evgeniy.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Евгений <br>Шеенко</h3>
+                    <p class="eight-section__text">CFA <br>Методология программы</p>
                 </div>
-                <div class="tenth-section__list__el">
-                    <h3 class="tenth-section__list__el__title">Согласие на обработку персональных данных</h3>
-                    <div class="tenth-section__list__el__text-container">
-                        <p class="tenth-section__list__el__text">PDF  •  8,5 Mb</p>
-                        <div class="tenth-section__list__el__img"></div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/sofia2.png" alt="Err">
                     </div>
+                    <h3 class="eight-section__el-title">Софья <br>Ярцева</h3>
+                    <p class="eight-section__text">Medical Innovation Lead <br>Лидер программы со стороны АстраЗенека</p>
+                </div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/ivan.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Иван <br>Таскин</h3>
+                    <p class="eight-section__text">Работа со стартапами</p>
+                </div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/rodion.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Родион <br>Сигал</h3>
+                    <p class="eight-section__text">Hadassah Medical Moscow</p>
+                </div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/julia.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Юлия <br>Щеглова</h3>
+                    <p class="eight-section__text">Работа со стартапами</p>
+                </div>
+                <div class="ninth-section__carusel__el">
+                    <div class="eight-section__img-container ninth-section__list__el__img__container">
+                        <img class="eight-section__img" src="img/elena.png" alt="Err">
+                    </div>
+                    <h3 class="eight-section__el-title">Елена <br>Тихомирова</h3>
+                    <p class="eight-section__text">Административная поддержка</p>
                 </div>
             </div>
-        </section>
-        <section class="eleventh-section">
-            <div class="container">
-                <h2 class="title eleventh-section__title">Организаторы</h2>
-                <div class="eleventh-section__list">
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/partner1.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/partner2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/sk2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/patner4.png" alt="Err">
-                    </div>
+        </div>
+    </div>
+    <div class="b-tenth-section container">
+        <h2 class="g-title tenth-section__title">Документы</h2>
+        <div class="tenth-section__list">
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Шаблон презентации</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  10,3 Mb</p>
+                    <div class="tenth-section__img"></div>
                 </div>
-                <div class="owl-carousel eleventh-section-carusel">
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/partner1.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/partner2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/sk2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__list__el">
-                        <img class="eleventh-section__list__el__img" src="img/patner4.png" alt="Err">
-                    </div>
-                </div>
-                <h2 class="title eleventh-section__title">Партнеры</h2>
-                <div class="owl-carousel eleventh-section__carusel">
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/partner3.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/unicorn.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/oiz.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/rbv.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/partner1.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/partner2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/sk2.png" alt="Err">
-                    </div>
-                    <div class="eleventh-section__carusel__el">
-                        <img class="eleventh-section__carusel__el__img" src="img/patner4.png" alt="Err">
-                    </div>
-                  </div>
             </div>
-        </section>
-    </main>
-    <footer id="contacts" class="footer container">
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Положение о конкурсном отборе</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  9,7 Mb</p>
+                    <div class="tenth-section__img"></div>
+                </div>
+            </div>
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Согласие на обработку персональных данных</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  8,5 Mb</p>
+                    <div class="tenth-section__img"></div>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel tenth-section__carusel">
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Шаблон презентации</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  10,3 Mb</p>
+                    <div class="tenth-section__img"></div>
+                </div>
+            </div>
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Положение о конкурсном отборе</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  9,7 Mb</p>
+                    <div class="tenth-section__img"></div>
+                </div>
+            </div>
+            <div class="tenth-section__el">
+                <h3 class="tenth-section__el__title">Согласие на обработку персональных данных</h3>
+                <div class="tenth-section__text-container">
+                    <p class="tenth-section__text">PDF  •  8,5 Mb</p>
+                    <div class="tenth-section__img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="b-eleventh-section">
+        <div class="container">
+            <h2 class="g-title eleventh-section__title">Организаторы</h2>
+            <div class="eleventh-section__list">
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/partner1.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/partner2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/sk2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/patner4.png" alt="Err">
+                </div>
+            </div>
+            <div class="owl-carousel eleventh-section-carusel">
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/partner1.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/partner2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/sk2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__el">
+                    <img class="eleventh-section__img" src="img/patner4.png" alt="Err">
+                </div>
+            </div>
+            <h2 class="g-title eleventh-section__title">Партнеры</h2>
+            <div class="owl-carousel eleventh-section__carusel">
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/partner3.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/unicorn.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/oiz.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/rbv.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/partner1.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/partner2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/sk2.png" alt="Err">
+                </div>
+                <div class="eleventh-section__carusel__el">
+                    <img class="eleventh-section__carusel__img" src="img/patner4.png" alt="Err">
+                </div>
+                </div>
+        </div>
+    </div>
+    <div class="b-footer container">
         <div class="footer__first-list">
-            <h2 class="title footer__title">Контакты</h2>
-            <div class="footer__first-list__contacts-text">
-                <p class="footer__first-list__contacts-text__upper-text">Контактное лицо</p>
-                <p class="footer__first-list__contacts-text__lower-text">Елена Тихомирова</p>
+            <h2 class="g-title footer__title">Контакты</h2>
+            <div class="footer__contacts-text">
+                <p class="footer__contacts-text__upper">Контактное лицо</p>
+                <p class="footer__contacts-text__lower">Елена Тихомирова</p>
             </div>
-            <div class="footer__first-list__contacts-links">
-                <a href="mailto:ilab@sk.ru" class="footer__first-list__contacts-llinks__upper-text">ilab@sk.ru</a>
-                <a href="tel:+74959560033" class="footer__first-list__contacts-links__lower-text">+7 (495) 956 00 33 <span>(доб. 2076)</span></a>
+            <div class="footer__contacts-links">
+                <a href="mailto:ilab@sk.ru" class="footer__contacts-links__upper">ilab@sk.ru</a>
+                <a href="tel:+74959560033" class="footer__contacts-links__lower">+7 (495) 956 00 33 <span>(доб. 2076)</span></a>
             </div>
             <button class="button-default footer__button">Подать заявку</button>
         </div>
         <div class="footer__second-list">
-            <a href="#" class="footer__second-list__text">© AstraZeneca – Skolkovo Startup Challenge 2021</a>
-            <a href="#" class="footer__second-list__text">Политика конфиденциальности</a>
-            <a href="#" class="footer__second-list__text">WebCanape – разработка сайтов и маркетинг</a>
+            <a href="#" class="footer__last-text">© AstraZeneca – Skolkovo Startup Challenge 2021</a>
+            <a href="#" class="footer__last-text">Политика конфиденциальности</a>
+            <a href="#" class="footer__last-text">WebCanape – разработка сайтов и маркетинг</a>
         </div>
-    </footer>
-    <div id="scroll-top-btn" class="scroll-top scroll-top__hide"></div>
-    <script src="js/jquery.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
+    </div>
+    <div class="scroll-top scroll-top__hide"></div>
     <script>
         $('.owl-carousel').owlCarousel({  
             nav:true,

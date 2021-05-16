@@ -1,53 +1,53 @@
-const sixthSection1 = document.querySelector('#sixth-section1');
-const sixthSection2 =  document.querySelector('#sixth-section2');
-const sixthSectionText1 = document.querySelector('#sixth-section__text1');
-const sixthSectionText2 = document.querySelector('#sixth-section__text2');
-const sixthSectionTitle1 = document.querySelector('#sixth-section_block_title1');
-const sixthSectionTitle2 = document.querySelector('#sixth-section_block_title2');
-const imgMinus1 = document.querySelector('#img-minus1');
-const imgMinus2 = document.querySelector('#img-minus2');
-const minus1 = document.querySelector('#minus1');
-const minus2 = document.querySelector('#minus2');
+const sixthSection1 = document.querySelector('.sixth-section__block1');
+const sixthSection2 =  document.querySelector('.sixth-section__block2');
+const sixthSectionText1 = document.querySelector('.js-sixth-section__text1');
+const sixthSectionText2 = document.querySelector('.js-sixth-section__text2');
+const sixthSectionTitle1 = document.querySelector('.js-sixth-section_title1');
+const sixthSectionTitle2 = document.querySelector('.js-sixth-section_title2');
+const imgMinus1 = document.querySelector('.js-img-minus1');
+const imgMinus2 = document.querySelector('.js-img-minus2');
+const minus1 = document.querySelector('.js-minus1');
+const minus2 = document.querySelector('.js-minus2');
 
-const programeBtn = document.querySelector('#programe-btn');
-const participationBtn = document.querySelector('#participation-btn');
-const lookingBtn = document.querySelector('#looking-btn');
-const destinationsBtn = document.querySelector('#destinations-btn');
-const stagesBtn = document.querySelector('#stages-btn');
-const contactsBtn = document.querySelector('#contacts-btn');
-const programe = document.querySelector('#programe');
-const participation = document.querySelector('#participation');
-const looking = document.querySelector('#looking');
-const destinations = document.querySelector('#destinations');
-const stages = document.querySelector('#stages');
-const contacts = document.querySelector('#contacts');
-const header = document.querySelector('#header');
-const scrollTopBtn = document.querySelector('#scroll-top-btn');
+const programeBtn = document.querySelector('.js-programe-btn');
+const participationBtn = document.querySelector('.js-participation-btn');
+const lookingBtn = document.querySelector('.js-looking-btn');
+const destinationsBtn = document.querySelector('.js-destinations-btn');
+const stagesBtn = document.querySelector('.js-stages-btn');
+const contactsBtn = document.querySelector('.js-contacts-btn');
+const programe = document.querySelector('.b-first-section');
+const participation = document.querySelector('.b-fourth-section');
+const looking = document.querySelector('.b-fifth-section');
+const destinations = document.querySelector('.b-sixth-section');
+const stages = document.querySelector('.b-seventh-section');
+const contacts = document.querySelector('.b-footer');
+const header = document.querySelector('.b-header');
+const scrollTopBtn = document.querySelector('.scroll-top');
 
 
 
-const more1 = document.querySelector('#more1');
-const more1Btn = document.querySelector('#more1-btn');
-const more2 = document.querySelector('#more2');
-const more2Btn = document.querySelector('#more2-btn');
-const more3 = document.querySelector('#more3');
-const more3Btn = document.querySelector('#more3-btn');
-const more4 = document.querySelector('#more4');
-const more4Btn = document.querySelector('#more4-btn');
+const more1 = document.querySelector('.js-more1');
+const more1Btn = document.querySelector('.js-more1-btn');
+const more2 = document.querySelector('.js-more2');
+const more2Btn = document.querySelector('.js-more2-btn');
+const more3 = document.querySelector('.js-more3');
+const more3Btn = document.querySelector('.js-more3-btn');
+const more4 = document.querySelector('.js-more4');
+const more4Btn = document.querySelector('.js-more4-btn');
 
-const burger = document.querySelector('#burger');
-const headerMenu = document.querySelector('#header__menu');
-const headerMenuClose = document.querySelector('#header__menu__close');
+const burger = document.querySelector('.header__burger');
+const headerMenu = document.querySelector('.b-menu');
+const headerMenuClose = document.querySelector('.menu__close');
 
 
 document.addEventListener('DOMContentLoaded', function() {
 
     burger.addEventListener('click', function() {
-        headerMenu.classList.add('header__menu__active');
+        headerMenu.classList.add('menu__active');
     });
 
     headerMenuClose.addEventListener('click', function() {
-        headerMenu.classList.remove('header__menu__active');
+        headerMenu.classList.remove('menu__active');
     });
 
     sixthSection1.addEventListener('click', function() {
