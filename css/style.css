@@ -96,6 +96,42 @@ h1 {
     align-items: center;
 }
 
+.b-header .header__burger {
+    display: none;
+    margin-top: 13px;
+    width: 16px;
+    height: 12px;
+    background: url(../img/burger.svg) no-repeat center;
+    background-size: cover;
+}
+
+.b-header .header__logo {
+    float: left;
+    margin-right: 80px;
+}
+
+.b-header .header__nav {
+    float: left;
+    margin-right: 74px;
+}
+
+.b-header .header__link {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--text-color);
+    transition: .2s ease-in-out;
+}
+
+.b-header .header__link:hover {
+    color: var(--text-color2);
+}
+
+.b-header .header__link:not(:last-child) {
+    margin-right: 50px;
+}
+
+/*-------------------------------------------*/
 .b-menu {
     position: fixed;
     padding: 50px;
@@ -108,11 +144,7 @@ h1 {
     transition: .2s ease-in-out;
 }
 
-.menu__active {
-    transform: none;
-}
-
-.menu__close {
+.b-menu .menu__close {
     position: absolute;
     top: 12px;
     right: 12px;
@@ -121,7 +153,7 @@ h1 {
     background: url(../img/fi_x.svg);
 }
 
-.menu__nav {
+.b-menu .menu__nav {
     display: flex;
     flex-direction: column;
 }
@@ -175,40 +207,10 @@ h1 {
     font-size: 14px;
 }
 
-.b-header .header__burger {
-    display: none;
-    margin-top: 13px;
-    width: 16px;
-    height: 12px;
-    background: url(../img/burger.svg) no-repeat center;
-    background-size: cover;
-}
-
-.b-header .header__logo {
-    float: left;
-    margin-right: 80px;
-}
-
-.b-header .header__nav {
-    float: left;
-    margin-right: 74px;
-}
-
-.b-header .header__link {
-    font-weight: bold;
-    font-size: 16px;
-    line-height: 18px;
-    color: var(--text-color);
-    transition: .2s ease-in-out;
-}
-
-.b-header .header__link:hover {
-    color: var(--text-color2);
-}
-
-.b-header .header__link:not(:last-child) {
-    margin-right: 50px;
-}
+    /*-------------------------------------------*/
+    .b-menu--active {
+        transform: none;
+    }
 
 /*-------------------------------------------*/
 .b-first-section {
@@ -322,7 +324,7 @@ h1 {
     margin-top: 53px;
 }
 
-.more {
+.b-second-section .second-section__more-content {
     display: none;
 }
 
@@ -502,48 +504,46 @@ h1 {
     margin-left: 51px;
 }
 
-    /*-------------------------------------------*/
-    .b-second-block {
-        margin-top: 67px;
-        margin-right: 40px;
-        padding: 31px 50px;
-        width: 510px;
-        background: #F5F5F5;
-    }
+.b-fourth-section .fourth-section__second-block {
+    margin-top: 67px;
+    margin-right: 40px;
+    padding: 31px 50px;
+    width: 510px;
+    background: #F5F5F5;
+}
 
-    .b-second-block .second-block__title {
-        display: flex;
-    }
+.b-fourth-section .second-block__title {
+    display: flex;
+}
 
-    .b-second-block .second-block__second-title {
-        width: 260px;
-        margin-left: 50px;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 32px;
-        color: var(--paragraph);
-    }
+.b-fourth-section .second-block__second-title {
+    width: 260px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--paragraph);
+}
 
-    .b-second-block .second-block__second-text {
-        margin-top: 40px;
-    }
+.b-fourth-section .second-block__second-text {
+    margin-top: 40px;
+}
 
-    /*-------------------------------------------*/
-    .b-last-block {
-        margin-top: 67px;
-        padding: 20px;
-        width: 70px;
-        background: var(--green);
-    }
+.b-fourth-section .fourth-section__last-block {
+    margin-top: 67px;
+    padding: 20px;
+    width: 70px;
+    background: var(--green);
+}
 
-    .b-last-block .last-block__text {
-        margin-top: 374px;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 27px;
-        color: var(--paragraph);
-        transform: rotate(-90deg);
-    }
+.b-fourth-section .last-block__text {
+    margin-top: 374px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    color: var(--paragraph);
+    transform: rotate(-90deg);
+}
 
 /*-------------------------------------------*/
 .b-fifth-section {
@@ -1078,6 +1078,10 @@ h1 {
     margin: auto;
 }
 
+.b-eleventh-section .eleventh-section__carusel {
+    margin-top: 40px;
+}
+
 .b-eleventh-section .eleventh-section__carusel__el {
     display: flex;
     width: 290px;
@@ -1158,7 +1162,7 @@ h1 {
     font-size: 16px;
 }
 
-.b-footer.footer__button {
+.b-footer .footer__button {
     width: 197px;
     height: 56px;
     margin-left: 102px;
@@ -1452,21 +1456,21 @@ h1 {
         margin-bottom: 10px;
     }
 
-    .b-second-block {
+    .b-fourth-section .fourth-section__second-block {
         margin-top: 10px;
         margin-right: 0;
         width: unset;
     }
 
-    .b-second-block .second-block__second-title {
+    .b-fourth-section .second-block__second-title {
         width: unset;
     }
 
-    .b-second-block .second-block__second-text {
+    .b-fourth-section .second-block__second-text {
         margin-top: 32px;
     }
 
-    .b-last-block {
+    .b-fourth-section .fourth-section__last-block {
         display: flex;
         flex-direction: row-reverse;
         width: unset;
@@ -1474,7 +1478,7 @@ h1 {
         margin-top: 10px;
     }
 
-    .b-last-block .last-block__text {
+    .b-fourth-section .last-block__text {
         margin-top: 0;
         margin-right: auto;
         transform: unset;
@@ -2174,19 +2178,19 @@ h1 {
         height: 55px;
     }
 
-    .b-second-block {
+    .b-fourth-section .fourth-section__second-block {
         width: 300px !important;
         height: 310px;
         padding: 30px;
         margin-top: 0;
     }
 
-    .b-second-block .second-block__second-title {
+    .b-fourth-section .second-block__second-title {
         font-size: 15px;
         line-height: 19px;
     }
 
-    .b-second-block .second-block__second-text {
+    .b-fourth-section .second-block__second-text {
         margin-top: 19px;
         font-size: 9px;
     }
@@ -2506,6 +2510,7 @@ h1 {
 
     .b-footer .footer__button {
         margin-top: 27px;
+        margin-left: auto;
     }
 
     .b-footer .footer__second-list {

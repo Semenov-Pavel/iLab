@@ -37,17 +37,17 @@ const more4Btn = document.querySelector('.js-more4-btn');
 
 const burger = document.querySelector('.header__burger');
 const headerMenu = document.querySelector('.b-menu');
-const headerMenuClose = document.querySelector('.menu__close');
+const menuClose = document.querySelector('.menu__close');
 
 
 document.addEventListener('DOMContentLoaded', function() {
 
     burger.addEventListener('click', function() {
-        headerMenu.classList.add('menu__active');
+        headerMenu.classList.add('b-menu--active');
     });
 
-    headerMenuClose.addEventListener('click', function() {
-        headerMenu.classList.remove('menu__active');
+    menuClose.addEventListener('click', function() {
+        headerMenu.classList.remove('b-menu--active');
     });
 
     sixthSection1.addEventListener('click', function() {
@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
     };
 
     more1Btn.addEventListener('click', function() {
-        more1.classList.toggle('more');
+        more1.classList.toggle('second-section__more-content');
         if (more1Btn.textContent === 'Читать далее') {
             more1Btn.textContent = 'Скрыть';
         } else {
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     more2Btn.addEventListener('click', function() {
-        more2.classList.toggle('more');
+        more2.classList.toggle('second-section__more-content');
         if (more2Btn.textContent === 'Читать далее') {
             more2Btn.textContent = 'Скрыть';
         } else {
@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     more3Btn.addEventListener('click', function() {
-        more3.classList.toggle('more');
+        more3.classList.toggle('second-section__more-content');
         if (more3Btn.textContent === 'Читать далее') {
             more3Btn.textContent = 'Скрыть';
         } else {
@@ -138,7 +138,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     more4Btn.addEventListener('click', function() {
-        more4.classList.toggle('more');
+        more4.classList.toggle('second-section__more-content');
         if (more4Btn.textContent === 'Читать далее') {
             more4Btn.textContent = 'Скрыть';
         } else {
